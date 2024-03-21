@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --max-ventana:
+}
+body{
+    background-image: url(../img/Fondo-bola.png);
+}
+div {
+    width: 100%;
+    height: 100vh;
+    height: 100px;
+    position: relative; 
+    left:0; top:0;
+}
+
+  @keyframes hadaMovimiento {
+    0%   { left:0%; top:500%;}
+    15%   {  top:100%;}
+    18%   {  top:80%;}
+    25%   { top:190%;}
+    30%   {  top:100%;}
+    35%   {  top:95%;}
+    40%   {  top:0%;}
+    45%   {   top:100%;}
+    50%   {  top:45%;}
+    55%   {  top:85%;}
+    60%   {  top:0;}
+    65%   { top:10%;}
+    70%   {  top:90%;}
+    75%   {  top:10%;}
+    80%   {  top:100%;}
+    85%   {  top:10%;}
+    90%   {  top:100%;}
+    95%   {  top:0%;}
+    98%   {  top:100%;}
+    99%   {  top:0%;}
+    100%{ left:100%; top:0px;}
+    /* 105%{ left:1000%; top:0px;} */
+  }
+  @keyframes cambioColor {
+    10%   {     box-shadow: rgba(198, 162, 65, 0.741) -35px 140px 40px -103px  inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -2px 120px 3px -95px inset,rgba(0, 0, 0, 0.39) 0px -90px 3px -75px inset,rgba(4, 7, 69, 0.891) -1px -30px 3px -21px inset; }
+
+    15%   {      box-shadow: rgba(255, 187, 0, 0.741) -25px 140px 40px -103px  inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -35px 140px 40px -103px inset,rgba(18, 10, 33, 0.613) 3px -90px 110px -5px  inset,rgba(4, 7, 69, 0.891) 1px -30px 5px -60px inset; }
+
+    50%   {      box-shadow: rgba(218, 171, 42, 0.741) 35px 140px 40px -103px  inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -35px 140px 40px -103px inset,rgba(0, 0, 0, 0.39) -200px -0px 16px -168px inset,rgba(4, 7, 69, 0.891) -1px -34px 46px -8px inset; }
+
+    60%   {     box-shadow: rgba(255, 187, 0, 0.741) -5px 140px 40px -103px  inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -05px 140px 40px -103px inset,rgba(18, 10, 33, 0.613) 3px -90px 110px -5px  inset,rgba(4, 7, 69, 0.891) -1px -34px 46px -8px inset; }
+
+    80%   {      box-shadow: rgba(144, 121, 58, 0.741) -35px 140px 40px -103px inset, rgba(182, 136, 20, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -5px 140px 40px -103px inset,rgba(0, 0, 0, 0.39) -200px -0px 16px -170px inset,rgba(4, 7, 69, 0.891) -1px -34px 46px -8px inset; }
+
+    100%{
+        box-shadow: rgba(191, 167, 101, 0.741) -5px 140px 40px -103px inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) -35px 140px 40px -103px inset,rgba(0, 0, 0, 0.39) -200px -80px 96px -168px inset,rgba(4, 7, 69, 0.891) -1px -34px 46px -8px inset;
+    }
+  }
+#hada{
+    width: 15%;
+    position: relative;
+    background-color:none;
+    animation-name: hadaMovimiento;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+    
+}

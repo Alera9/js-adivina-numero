@@ -1,0 +1,57 @@
+body{
+    margin:  0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.container{
+    margin:  0 auto;
+    width: 60vh;
+    height: 60vh;
+    /* display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center; */
+}
+.buttonContainer{
+    margin:  0 auto;
+    width: 250px;
+    display: inline-flex;
+}
+button{
+    margin: 0;
+    padding: 0;
+    width: 4.5rem;
+    height: 4.5rem;
+    flex: 10%;
+    overflow-wrap: break-word;
+}
+#outputNumber{
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 50% 50% 36% 38%;
+    box-shadow: rgba(255, 183, 0, 0.526) 35px 140px 40px -103px inset, rgba(26, 31, 130, 0.19) 96px -214px 34px -128px inset,rgba(247, 254, 32, 0.226) 116px 114px 15px -150px inset,rgba(18, 10, 33, 0.613) 3px -90px 110px -5px inset,rgba(4, 7, 69, 0.781) -1px -30px 45px -60px inset;
+    background-image: url(../img/bola-.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    animation-name: cambioColor;
+    animation-duration: 15s;
+    animation-iteration-count:infinite;
+
+}
+#randomNumber{
+    margin-left: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10lh;
+    /* font-size: 18vw; */
+    color: rgba(225, 127, 255, 0.648);
+    text-align: center;
+    text-shadow:  0px -2px 22px rgba(162, 0, 255, 0.809), 0 0 .1em rgba(0, 225, 255, 0.431), 0 0 0.1em rgba(166, 0, 255, 0.081);
+}
